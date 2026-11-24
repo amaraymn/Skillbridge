@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | SkillBridge</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<div class="dashboard-layout">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-logo">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h3>SkillBridge</h3>
+        </div>
+
+        <nav class="sidebar-nav">
+            <a href="dashboard.html"><i class="fa-solid fa-house"></i> Dashboard</a>
+            <a href="assessment.html"><i class="fa-solid fa-clipboard-check"></i> Assessment</a>
+            <a href="skill-gap.html"><i class="fa-solid fa-chart-line"></i> Skill Gap</a>
+            <a href="roadmap.html"><i class="fa-solid fa-route"></i> Roadmap</a>
+            <a href="projects.html" class="active"><i class="fa-solid fa-code"></i> Projects</a>
+            <a href="portfolio.html"><i class="fa-solid fa-briefcase"></i> Portfolio</a>
+        </nav>
+
+        <div class="sidebar-bottom">
+            <a href="index.html"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="dashboard-main">
+
+        <div class="dashboard-topbar">
+            <div>
+                <h2>Projects</h2>
+                <p>Build your skills through practical experience.</p>
+            </div>
+
+            <div class="topbar-user">
+                <i class="fa-regular fa-bell"></i>
+                <div class="user-avatar">A</div>
+            </div>
+        </div>
+
+        <section class="projects-content">
+
+            <div class="projects-hero">
+                <div>
+                    <span class="projects-label">PRACTICE & BUILD</span>
+                    <h1>Turn Your Skills Into <span>Real Projects</span></h1>
+                    <p>
+                        Apply what you have learned, improve your abilities,
+                        and build a portfolio that shows your potential.
+                    </p>
+                    <a href="#project-list" class="projects-btn">
+                        Explore Projects <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="projects-hero-icon">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+            </div>
+
+            <!-- Stats -->
+            <div class="projects-stats">
+                <div class="project-stat">
+                    <i class="fa-solid fa-folder-open"></i>
+                    <div>
+                        <h3>12</h3>
+                        <p>Available Projects</p>
+                    </div>
+                </div>
+
+                <div class="project-stat">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <div>
+                        <h3>4</h3>
+                        <p>Completed</p>
+                    </div>
+                </div>
+
+                <div class="project-stat">
+                    <i class="fa-solid fa-clock"></i>
+                    <div>
+                        <h3>3</h3>
+                        <p>In Progress</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projects -->
+            <div class="projects-section" id="project-list">
+
+                <div class="projects-section-header">
+                    <div>
+                        <h2>Recommended Projects</h2>
+                        <p>Projects selected to help you improve your skills.</p>
+                    </div>
+                    <span class="projects-count">3 Projects</span>
+                </div>
+
+                <div class="projects-grid">
+
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-card-top">
+                            <div class="project-icon purple">
+                                <i class="fa-solid fa-globe"></i>
+                            </div>
+                            <span class="project-level beginner">Beginner</span>
+                        </div>
+
+                        <h3>Personal Portfolio Website</h3>
+                        <p>
+                            Create a responsive portfolio website to showcase
+                            your skills, experience, and projects.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap</span>
+                        </div>
+
+                        <div class="project-info">
+                            <span><i class="fa-regular fa-clock"></i> 3-5 Days</span>
+                            <span><i class="fa-solid fa-star"></i> 100 XP</span>
+                        </div>
+
+                        <button class="project-btn">Start Project <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-card-top">
+                            <div class="project-icon pink">
+                                <i class="fa-solid fa-cloud-sun"></i>
+                            </div>
+                            <span class="project-level intermediate">Intermediate</span>
+                        </div>
+
+                        <h3>Weather Dashboard</h3>
+                        <p>
+                            Build a weather application that displays
+                            temperature and weather conditions.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>API</span>
+                            <span>CSS</span>
+                        </div>
+
+                        <div class="project-info">
+                            <span><i class="fa-regular fa-clock"></i> 5-7 Days</span>
+                            <span><i class="fa-solid fa-star"></i> 200 XP</span>
+                        </div>
+
+                        <button class="project-btn">Start Project <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-card-top">
+                            <div class="project-icon blue">
+                                <i class="fa-solid fa-list-check"></i>
+                            </div>
+                            <span class="project-level intermediate">Intermediate</span>
+                        </div>
+
+                        <h3>Task Management App</h3>
+                        <p>
+                            Develop a task manager that allows users
+                            to create, update, and organize their tasks.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>Bootstrap</span>
+                            <span>Local Storage</span>
+                        </div>
+
+                        <div class="project-info">
+                            <span><i class="fa-regular fa-clock"></i> 7-10 Days</span>
+                            <span><i class="fa-solid fa-star"></i> 250 XP</span>
+                        </div>
+
+                        <button class="project-btn">Start Project <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+</div>
+
+</body>
+</html>

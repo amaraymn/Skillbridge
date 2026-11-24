@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio | SkillBridge</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<div class="dashboard-layout">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <div class="sidebar-logo">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h3>SkillBridge</h3>
+        </div>
+
+        <nav class="sidebar-nav">
+            <a href="dashboard.html"><i class="fa-solid fa-house"></i> Dashboard</a>
+            <a href="assessment.html"><i class="fa-solid fa-clipboard-check"></i> Assessment</a>
+            <a href="skill-gap.html"><i class="fa-solid fa-chart-line"></i> Skill Gap</a>
+            <a href="roadmap.html"><i class="fa-solid fa-route"></i> Roadmap</a>
+            <a href="projects.html"><i class="fa-solid fa-code"></i> Projects</a>
+            <a href="portfolio.html" class="active"><i class="fa-solid fa-briefcase"></i> Portfolio</a>
+        </nav>
+
+        <div class="sidebar-bottom">
+            <a href="index.html"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+        </div>
+
+    </aside>
+
+    <!-- Main Content -->
+    <main class="dashboard-main">
+
+        <div class="dashboard-topbar">
+            <div>
+                <h2>My Portfolio</h2>
+                <p>Showcase your skills and achievements.</p>
+            </div>
+
+            <div class="topbar-user">
+                <i class="fa-regular fa-bell"></i>
+                <div class="user-avatar">A</div>
+            </div>
+        </div>
+
+        <section class="portfolio-content">
+
+            <!-- Profile Hero -->
+            <div class="portfolio-hero">
+
+                <div class="portfolio-avatar">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+
+                <div class="portfolio-profile-info">
+                    <span class="portfolio-label">STUDENT PORTFOLIO</span>
+
+                    <h1>Alex Morgan</h1>
+
+                    <h4>Frontend Developer</h4>
+
+                    <p>
+                        Passionate student interested in web development,
+                        creative problem solving, and building useful digital experiences.
+                    </p>
+
+                    <div class="portfolio-socials">
+                        <span><i class="fa-solid fa-location-dot"></i> Cairo, Egypt</span>
+                        <span><i class="fa-solid fa-envelope"></i> alex@example.com</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-profile-action">
+                    <button class="portfolio-edit-btn">
+                        <i class="fa-solid fa-pen"></i> Edit Profile
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- Statistics -->
+            <div class="portfolio-stats">
+
+                <div class="portfolio-stat">
+                    <i class="fa-solid fa-code"></i>
+                    <div>
+                        <h3>08</h3>
+                        <p>Projects</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-stat">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <div>
+                        <h3>12</h3>
+                        <p>Skills</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-stat">
+                    <i class="fa-solid fa-award"></i>
+                    <div>
+                        <h3>05</h3>
+                        <p>Achievements</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- About -->
+            <div class="portfolio-section portfolio-about">
+
+                <div class="portfolio-section-title">
+                    <h2>About Me</h2>
+                    <i class="fa-solid fa-user-pen"></i>
+                </div>
+
+                <p>
+                    I am a motivated frontend developer who enjoys turning
+                    ideas into interactive websites. I have experience with
+                    HTML, CSS, JavaScript, and Bootstrap. I am always looking
+                    to learn new technologies and improve my development skills.
+                </p>
+
+            </div>
+
+            <!-- Skills -->
+            <div class="portfolio-section">
+
+                <div class="portfolio-section-title">
+                    <h2>My Skills</h2>
+                    <i class="fa-solid fa-layer-group"></i>
+                </div>
+
+                <div class="portfolio-skills">
+
+                    <div class="portfolio-skill">
+                        <div class="skill-heading">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="portfolio-progress">
+                            <div style="width: 90%"></div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-skill">
+                        <div class="skill-heading">
+                            <span>CSS</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="portfolio-progress">
+                            <div style="width: 85%"></div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-skill">
+                        <div class="skill-heading">
+                            <span>JavaScript</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="portfolio-progress">
+                            <div style="width: 70%"></div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-skill">
+                        <div class="skill-heading">
+                            <span>Bootstrap</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="portfolio-progress">
+                            <div style="width: 80%"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Featured Projects -->
+            <div class="portfolio-section">
+
+                <div class="portfolio-section-title">
+                    <h2>Featured Projects</h2>
+                    <a href="projects.html">View All <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="portfolio-projects">
+
+                    <div class="portfolio-project-card">
+                        <div class="portfolio-project-icon purple">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+
+                        <h3>Portfolio Website</h3>
+
+                        <p>
+                            A responsive personal website built to showcase
+                            skills and development projects.
+                        </p>
+
+                        <div class="portfolio-project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-project-card">
+                        <div class="portfolio-project-icon blue">
+                            <i class="fa-solid fa-cloud-sun"></i>
+                        </div>
+
+                        <h3>Weather Dashboard</h3>
+
+                        <p>
+                            A weather dashboard that displays weather
+                            information using an external API.
+                        </p>
+
+                        <div class="portfolio-project-tags">
+                            <span>JavaScript</span>
+                            <span>API</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-project-card">
+                        <div class="portfolio-project-icon pink">
+                            <i class="fa-solid fa-list-check"></i>
+                        </div>
+
+                        <h3>Task Manager</h3>
+
+                        <p>
+                            A simple task management application for
+                            organizing daily activities.
+                        </p>
+
+                        <div class="portfolio-project-tags">
+                            <span>JavaScript</span>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Achievements -->
+            <div class="portfolio-section">
+
+                <div class="portfolio-section-title">
+                    <h2>Achievements & Certificates</h2>
+                    <i class="fa-solid fa-trophy"></i>
+                </div>
+
+                <div class="portfolio-achievements">
+
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <i class="fa-solid fa-medal"></i>
+                        </div>
+
+                        <div>
+                            <h4>Frontend Development</h4>
+                            <p>Successfully completed a frontend development course.</p>
+                            <span>2026</span>
+                        </div>
+                    </div>
+
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <i class="fa-solid fa-certificate"></i>
+                        </div>
+
+                        <div>
+                            <h4>Web Development Fundamentals</h4>
+                            <p>Completed the fundamentals of web development.</p>
+                            <span>2025</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+</html>

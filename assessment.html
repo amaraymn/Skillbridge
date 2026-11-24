@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skill Assessment | SkillBridge</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/skillbridge-pages.css">
+</head>
+<body>
+<div class="dashboard-layout">
+  <aside class="dashboard-sidebar">
+    <a href="index.html" class="dashboard-brand"><i class="fa-solid fa-bridge"></i> SkillBridge</a>
+    <p class="sidebar-label">MAIN MENU</p>
+    <nav class="sidebar-nav"><a class="sidebar-link " href="dashboard.html"><i class="fa-solid fa-chart-pie"></i><span>Dashboard</span></a>
+<a class="sidebar-link active" href="assessment.html"><i class="fa-solid fa-clipboard-check"></i><span>Assessment</span></a>
+<a class="sidebar-link " href="skill-gap.html"><i class="fa-solid fa-bullseye"></i><span>Skill Gap</span></a>
+<a class="sidebar-link " href="roadmap.html"><i class="fa-solid fa-route"></i><span>Roadmap</span></a>
+<a class="sidebar-link " href="projects.html"><i class="fa-solid fa-laptop-code"></i><span>Projects</span></a>
+<a class="sidebar-link " href="portfolio.html"><i class="fa-solid fa-briefcase"></i><span>Portfolio</span></a></nav>
+    <div class="sidebar-bottom">
+      <a class="sidebar-link" href="index.html"><i class="fa-solid fa-house"></i><span>Back to Home</span></a>
+      <a class="sidebar-link logout-link" href="login.html"><i class="fa-solid fa-right-from-bracket"></i><span>Logout</span></a>
+    </div>
+  </aside>
+  <main class="dashboard-main">
+    <div class="dashboard-topbar">
+      <div><h2>Skill Assessment</h2><p>Keep learning, keep growing — your future starts here.</p></div>
+      <div class="dashboard-user">
+        <div class="notification-icon"><i class="fa-regular fa-bell"></i></div>
+        <div class="user-avatar">A</div>
+        <div class="user-details"><h6>Ammar Ayman</h6><span>Student Account</span></div>
+      </div>
+    </div>
+    
+<section class="page-hero">
+  <div><span class="eyebrow"><i class="fa-solid fa-wand-magic-sparkles"></i> KNOW YOUR LEVEL</span>
+  <h1>Let's discover your <span>skills.</span></h1>
+  <p>Answer a few questions to get a sample view of your current level and what to improve next.</p></div>
+  <div class="hero-orb"><i class="fa-solid fa-clipboard-question"></i></div>
+</section>
+<div class="page-grid assessment-grid">
+  <section class="content-card">
+    <div class="card-heading"><div><h3>Frontend Development Assessment</h3><p>Demo assessment · 5 questions</p></div><span class="soft-pill">Beginner level</span></div>
+    <div class="assessment-progress"><div class="progress-label"><span id="question-count">Question 1 of 5</span><strong id="progress-percent">20%</strong></div><div class="progress"><div id="quiz-progress" class="progress-bar purple-bar" style="width:20%"></div></div></div>
+    <div id="quiz-area">
+      <span class="question-category">HTML & CSS BASICS</span>
+      <h2 id="question-text">What does HTML stand for?</h2>
+      <div id="answer-list" class="answer-list">
+        <button class="answer-option" data-answer="0"><span class="answer-letter">A</span><span>HyperText Markup Language</span><i class="fa-regular fa-circle"></i></button>
+        <button class="answer-option" data-answer="1"><span class="answer-letter">B</span><span>HighText Machine Language</span><i class="fa-regular fa-circle"></i></button>
+        <button class="answer-option" data-answer="2"><span class="answer-letter">C</span><span>Hyper Transfer Main Language</span><i class="fa-regular fa-circle"></i></button>
+        <button class="answer-option" data-answer="3"><span class="answer-letter">D</span><span>Home Tool Markup Language</span><i class="fa-regular fa-circle"></i></button>
+      </div>
+      <div class="quiz-actions"><button class="outline-btn" id="quiz-back" disabled>Previous</button><button class="primary-btn" id="quiz-next" disabled>Next Question <i class="fa-solid fa-arrow-right"></i></button></div>
+    </div>
+    <div id="quiz-result" class="quiz-result d-none">
+      <div class="result-icon"><i class="fa-solid fa-trophy"></i></div><h2>Assessment completed!</h2>
+      <p>Your demo score is</p><div class="result-score" id="result-score">0/5</div>
+      <p id="result-message">Great effort. Review your recommendations to keep improving.</p>
+      <a href="skill-gap.html" class="primary-btn">View My Skill Gap <i class="fa-solid fa-arrow-right"></i></a>
+      <button class="text-btn d-block mx-auto mt-3" id="quiz-restart">Retake assessment</button>
+    </div>
+  </section>
+  <aside class="content-card tips-card">
+    <div class="tips-icon"><i class="fa-solid fa-lightbulb"></i></div><h3>Before you start</h3>
+    <p>This is a frontend demonstration. Your answers are processed in the browser only.</p>
+    <ul><li><i class="fa-solid fa-check"></i> Read each question carefully.</li><li><i class="fa-solid fa-check"></i> Choose one answer.</li><li><i class="fa-solid fa-check"></i> You can go back before finishing.</li></ul>
+    <div class="tip-note"><i class="fa-solid fa-clock"></i><span><strong>Estimated time</strong><br>3–5 minutes</span></div>
+  </aside>
+</div>
+
+    <footer class="dashboard-footer"><p>© 2026 SkillBridge. All Rights Reserved.</p></footer>
+  </main>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/skillbridge-pages.js"></script>
+</body>
+</html>

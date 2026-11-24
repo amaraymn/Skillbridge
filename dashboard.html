@@ -1,0 +1,413 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SkillBridge | Dashboard</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="dashboard-layout">
+
+    <!-- Sidebar -->
+    <aside class="dashboard-sidebar">
+
+        <a href="index.html" class="dashboard-brand">
+            <i class="fa-solid fa-bridge"></i>
+            SkillBridge
+        </a>
+
+        <div class="sidebar-label">MENU</div>
+
+        <nav class="sidebar-nav">
+
+            <a href="dashboard.html" class="sidebar-link active">
+                <i class="fa-solid fa-border-all"></i>
+                Dashboard
+            </a>
+
+            <a href="assessment.html" class="sidebar-link">
+                <i class="fa-solid fa-clipboard-check"></i>
+                Skill Assessment
+            </a>
+
+            <a href="skill-gap.html" class="sidebar-link">
+                <i class="fa-solid fa-chart-pie"></i>
+                Skill Gap Analysis
+            </a>
+
+            <a href="roadmap.html" class="sidebar-link">
+                <i class="fa-solid fa-route"></i>
+                Learning Roadmap
+            </a>
+
+            <a href="projects.html" class="sidebar-link">
+                <i class="fa-solid fa-laptop-code"></i>
+                Projects
+            </a>
+
+            <a href="portfolio.html" class="sidebar-link">
+                <i class="fa-solid fa-briefcase"></i>
+                My Portfolio
+            </a>
+
+        </nav>
+
+        <div class="sidebar-bottom">
+
+            <a href="index.html" class="sidebar-link">
+                <i class="fa-solid fa-house"></i>
+                Back to Home
+            </a>
+
+            <a href="login.html" class="sidebar-link logout-link">
+                <i class="fa-solid fa-right-from-bracket"></i>
+                Logout
+            </a>
+
+        </div>
+
+    </aside>
+
+
+    <!-- Main Dashboard -->
+    <main class="dashboard-main">
+
+        <!-- Topbar -->
+        <header class="dashboard-topbar">
+
+            <div>
+                <h2>Dashboard</h2>
+                <p>Track your progress and build your future.</p>
+            </div>
+
+            <div class="dashboard-user">
+
+                <div class="notification-icon">
+                    <i class="fa-regular fa-bell"></i>
+                </div>
+
+                <div class="user-avatar">A</div>
+
+                <div class="user-details">
+                    <h6>Ammar Ayman</h6>
+                    <span>Student</span>
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- Welcome Section -->
+        <section class="welcome-section">
+
+            <div class="welcome-content">
+                <span class="welcome-tag">
+                    <i class="fa-solid fa-sun"></i>
+                    YOUR LEARNING JOURNEY
+                </span>
+
+                <h1>Welcome Back, Ammar!</h1>
+
+                <p>
+                    Ready to improve your skills today?
+                    Keep learning and take another step toward your career goals.
+                </p>
+
+                <a href="assessment.html" class="dashboard-primary-btn">
+                    Continue Learning
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="welcome-icon">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+
+        </section>
+
+
+        <!-- Statistics -->
+        <section class="dashboard-stats">
+
+            <div class="stat-card">
+                <div class="stat-icon purple">
+                    <i class="fa-solid fa-bullseye"></i>
+                </div>
+
+                <div>
+                    <span>Total Skills</span>
+                    <h3>8</h3>
+                    <small>Skills being tracked</small>
+                </div>
+            </div>
+
+
+            <div class="stat-card">
+                <div class="stat-icon blue">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+
+                <div>
+                    <span>Average Progress</span>
+                    <h3>65%</h3>
+                    <small>Your overall progress</small>
+                </div>
+            </div>
+
+
+            <div class="stat-card">
+                <div class="stat-icon green">
+                    <i class="fa-solid fa-check-circle"></i>
+                </div>
+
+                <div>
+                    <span>Completed Projects</span>
+                    <h3>4</h3>
+                    <small>Projects completed</small>
+                </div>
+            </div>
+
+
+            <div class="stat-card">
+                <div class="stat-icon orange">
+                    <i class="fa-solid fa-clock"></i>
+                </div>
+
+                <div>
+                    <span>Learning Hours</span>
+                    <h3>32</h3>
+                    <small>Total learning time</small>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- Dashboard Content -->
+        <section class="dashboard-content">
+
+            <!-- Skills Progress -->
+            <div class="dashboard-panel skills-panel">
+
+                <div class="panel-heading">
+                    <div>
+                        <h3>My Skills</h3>
+                        <p>Track your current skill development</p>
+                    </div>
+
+                    <a href="skill-gap.html">View All</a>
+                </div>
+
+
+                <div class="skill-item">
+
+                    <div class="skill-info">
+                        <span>HTML & CSS</span>
+                        <span>90%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar purple-bar" style="width: 90%"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-item">
+
+                    <div class="skill-info">
+                        <span>JavaScript</span>
+                        <span>65%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar blue-bar" style="width: 65%"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-item">
+
+                    <div class="skill-info">
+                        <span>Bootstrap</span>
+                        <span>80%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar green-bar" style="width: 80%"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-item">
+
+                    <div class="skill-info">
+                        <span>PHP</span>
+                        <span>40%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar orange-bar" style="width: 40%"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Learning Roadmap -->
+            <div class="dashboard-panel roadmap-panel">
+
+                <div class="panel-heading">
+                    <div>
+                        <h3>Learning Roadmap</h3>
+                        <p>Your next learning steps</p>
+                    </div>
+
+                    <a href="roadmap.html">View All</a>
+                </div>
+
+
+                <div class="roadmap-item">
+                    <div class="roadmap-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+
+                    <div class="roadmap-info">
+                        <h5>Advanced JavaScript</h5>
+                        <p>Improve your programming skills</p>
+                        <span class="roadmap-status">In Progress</span>
+                    </div>
+
+                </div>
+
+
+                <div class="roadmap-item">
+                    <div class="roadmap-icon">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+
+                    <div class="roadmap-info">
+                        <h5>Database Fundamentals</h5>
+                        <p>Learn SQL and database design</p>
+                        <span class="roadmap-status upcoming">Upcoming</span>
+                    </div>
+
+                </div>
+
+
+                <div class="roadmap-item">
+                    <div class="roadmap-icon">
+                        <i class="fa-solid fa-server"></i>
+                    </div>
+
+                    <div class="roadmap-info">
+                        <h5>Backend Development</h5>
+                        <p>Start building server-side applications</p>
+                        <span class="roadmap-status upcoming">Upcoming</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Recent Activity -->
+        <section class="dashboard-panel activity-panel">
+
+            <div class="panel-heading">
+                <div>
+                    <h3>Recent Activity</h3>
+                    <p>Your latest learning activities</p>
+                </div>
+
+                <a href="#">View All</a>
+            </div>
+
+
+            <div class="activity-item">
+
+                <div class="activity-icon">
+                    <i class="fa-solid fa-circle-check"></i>
+                </div>
+
+                <div class="activity-info">
+                    <h5>Completed HTML & CSS Assessment</h5>
+                    <p>You successfully completed your skill assessment.</p>
+                </div>
+
+                <span class="activity-time">2 days ago</span>
+
+            </div>
+
+
+            <div class="activity-item">
+
+                <div class="activity-icon">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+
+                <div class="activity-info">
+                    <h5>Started a New Project</h5>
+                    <p>You started working on a web development project.</p>
+                </div>
+
+                <span class="activity-time">4 days ago</span>
+
+            </div>
+
+
+            <div class="activity-item">
+
+                <div class="activity-icon">
+                    <i class="fa-solid fa-route"></i>
+                </div>
+
+                <div class="activity-info">
+                    <h5>Updated Your Learning Roadmap</h5>
+                    <p>Your learning plan has been updated.</p>
+                </div>
+
+                <span class="activity-time">1 week ago</span>
+
+            </div>
+
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="dashboard-footer">
+            <p>© 2026 SkillBridge. All Rights Reserved.</p>
+        </footer>
+
+    </main>
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
